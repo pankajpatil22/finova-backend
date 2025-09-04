@@ -1,0 +1,13 @@
+# Core
+Django>=5.0,<6.0
+djangorestframework>=3.15.0
+djangorestframework-simplejwt>=5.3.1
+django-cors-headers>=4.3.1
+
+# Utilities
+python-dotenv>=1.0.1
+
+# Optional (for production deployments, not strictly required in dev)
+psycopg2-binary>=2.9.9   # PostgreSQL driver, remove if not using Postgres
+gunicorn>=21.2.0         # WSGI server (Linux deployments)
+whitenoise>=6.6.0
